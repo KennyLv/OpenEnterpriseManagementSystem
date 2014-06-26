@@ -1,0 +1,211 @@
+/*
+   Chanzhi custom theme
+
+   This file built by system automatically.
+   Options:
+   ( '*' mark the key option)
+
+   * colorBackgroud:           @colorBackgroud;
+   * colorFore:                @colorFore;
+   * colorBorder:              @colorBorder;
+   * backgroundImage:          @backgroundImage;
+   * fontSize:                 @fontSize;
+   * colorPrimary:             @colorPrimary;
+     colorPrimaryRgb:          @colorPrimaryRgb;
+     colorPrimaryInverseDim:   @colorPrimaryInverseDim;
+     colorPrimaryInverse:      @colorPrimaryInverse;
+   * colorSecondary:           @colorSecondary;
+     colorSecondaryRgb:        @colorSecondaryRgb;
+     colorSecondaryDark:       @colorSecondaryDark;
+     colorSecondaryLight:      @colorSecondaryLight;
+     colorPale:                @colorPale;
+   * borderRadius:             @borderRadius;
+   * avatarBorderRadius:       @avatarBorderRadius;
+   * borderWidth:              @borderWidth;
+   * borderStyle:              @borderStyle;
+*/
+
+/* ZUI theme */
+a {color: @colorPrimary}
+a:hover, a:focus {color: @colorSecondary}
+
+.btn-primary {color: @colorPrimaryInverseDim; background-color: @colorPrimary; border-color: @colorSecondary}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {color: @colorPrimaryInverse; background-color: @colorSecondary; border-color: @colorSecondary}
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {background-image: none}
+.btn-link {color: @colorPrimary}
+.btn-link:hover, .btn-link:focus {color: @colorSecondary}
+
+.label-primary {background-color: @colorPrimary}
+.label-primary[href]:hover, .label-primary[href]:focus {background-color: @colorSecondary}
+.label-primary[href]:hover, .label-primary[href]:focus {background-color: @colorSecondary}
+
+.text-primary {color: @colorPrimary}
+.text-primary:hover, .text-link:hover, .text-link:active{color: @colorSecondary}
+
+.form-control:focus {border-color: @colorSecondary; -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6)}
+
+.ke-container.focus, .ke-input-text:focus {border-color: @colorSecondary !important; -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6) !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6) !important; box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(@colorPrimaryRgb, 0.6) !important}
+.ke-menu-item-on, .ke-colorpicker-cell-on {background-color: @colorPrimary !important}
+
+a.list-group-item:hover, a.list-group-item:focus {background-color: @colorSecondary; color: @colorPrimaryInverseDim}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {background-color: @colorPrimary; color: @colorPrimaryInverse}
+
+.nav-primary > li.active > a,
+.nav-primary > li.active > a:hover,
+.nav-primary > li.active > a:focus {background-color: @colorPrimary; border-color: @colorSecondary}
+
+.pager > .active > a, .pager > .active > span, .pager > .active > a:hover, .pager > .active > span:hover, .pager > .active > a:focus, .pager > .active > span:focus {background-color: @colorPrimary}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {background-color: @colorPale}
+.table tr > td.active, .table tr > th.active, .table tr.active > td, .table tr.active > th {background-color: #ffe4e5}
+table.tablesorter thead tr .headerSortUp:after,table.tablesorter thead tr .headerSortDown:after {color: @colorPrimary !important}
+
+.chosen-container-single .chosen-search:focus, .chosen-container-active .chosen-single, .chosen-container-active .chosen-choices {border-color: @colorPrimary !important}
+.chosen-container .chosen-results li.highlighted {background-color: @colorSecondary !important}
+.chosen-container-active.chosen-with-drop .chosen-single {border-color: #cbcbcb !important; border-color: rgba(0, 0, 0, 0.15) !important}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {background-color: @colorPrimary}
+
+.messager-primary {background-color: @colorPrimary}
+
+a.card:hover, .card:hover a {color: @colorPrimary}
+
+.comment:hover > .content > .actions > a {color: @colorPrimary}
+
+.btn, .form-control {-moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+.ke-container {-moz-border-radius: @borderRadius !important; -webkit-border-radius: @borderRadius !important; border-radius: @borderRadius !important}
+
+/* Background */
+body {color:@colorFore; background-color: @colorBackgroud; background-image: @backgroundImage; font-size: @fontSize; background-attachment: fixed}
+
+/* Navbar */
+#navbar
+{
+    border-color: @colorSecondaryDark;
+    background: @colorSecondary;
+    -webkit-border-radius: @borderRadius;
+    -moz-border-radius: @borderRadius;
+    border-radius: @borderRadius;
+}
+#navbar .nav > li:first-child > a
+{
+    -webkit-border-radius: @borderRadius 0 0 @borderRadius;
+    -moz-border-radius: @borderRadius 0 0 @borderRadius;
+    border-radius: @borderRadius 0 0 @borderRadius;
+}
+#navbar .nav > li:last-child > a
+{
+    -webkit-border-radius: 0 @borderRadius @borderRadius 0;
+    -moz-border-radius: 0 @borderRadius @borderRadius 0;
+    border-radius: 0 @borderRadius @borderRadius 0;
+}
+#navbar .nav > li > a
+{
+    color: @colorPrimaryInverseDim;
+    background: @colorSecondary;
+    border-left: 1px solid @colorSecondaryDark;
+    border-right: 1px solid @colorSecondaryLight;
+}
+#navbar .nav > li > a:hover,
+#navbar .nav > li.active > a,
+#navbar .nav > li.active > a:hover
+{
+    color: @colorPrimaryInverse;
+    background: @colorPrimary;
+}
+
+#navbar .caret {border-top-color: @colorPrimaryInverseDim; border-bottom-color: @colorPrimaryInverseDim}
+#navbar .dropdown-menu, #navbar .dropdown-menu > li:last-child > a {-webkit-border-radius: 0 0 @borderRadius @borderRadius; -moz-border-radius: 0 0 @borderRadius @borderRadius; border-radius: 0 0 @borderRadius @borderRadius}
+#navbar .dropdown-menu .dropdown-menu {-webkit-border-radius: @borderRadius; -moz-border-radius: @borderRadius; border-radius: @borderRadius}
+#navbar .dropdown-menu .dropdown-menu > li:first-child > a {-webkit-border-radius: @borderRadius @borderRadius 0 0; -moz-border-radius: @borderRadius @borderRadius 0 0; border-radius: @borderRadius @borderRadius 0 0}
+#navbar .dropdown-submenu:hover > a:after {border-left-color: @colorPrimaryInverseDim}
+#navbar .dropdown-menu > li > a:hover, #navbar .dropdown-menu > li > a:focus, #navbar .dropdown-submenu:hover > a, #navbar .dropdown-submenu:focus > a {background: @colorSecondaryLight; color: @colorPrimaryInverse}
+
+@media (max-width: 767px)
+{ 
+    #navbar .nav > li:last-child > a, #navbar .nav > li:first-child > a {-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0}
+    #navbar .navbar-collapse {border-color: transparent}
+    #navbar .navbar-toggle:hover, #navbar .navbar-toggle:focus {background-color: @colorPrimary}
+}
+
+/* List */
+.list {background-color: @colorBackgroud; -moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+.list > header
+{ 
+    background: @colorSecondary;
+    color: @colorPrimaryInverseDim;
+    -webkit-border-radius: @borderRadius @borderRadius 0 0;
+    -moz-border-radius: @borderRadius @borderRadius 0 0;
+    border-radius: @borderRadius @borderRadius 0 0;
+}
+
+/* Carousel */
+.carousel {-moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+.right.carousel-control {-webkit-border-radius: 0 @borderRadius @borderRadius 0; -moz-border-radius: 0 @borderRadius @borderRadius 0; border-radius: 0 @borderRadius @borderRadius 0}
+.left.carousel-control {-webkit-border-radius: @borderRadius 0 0 @borderRadius; -moz-border-radius: @borderRadius 0 0 @borderRadius; border-radius: @borderRadius 0 0 @borderRadius}
+
+/* Panel */
+.panel {overflow: hidden; -moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+.panel > .panel-heading
+{
+    background: @colorSecondary;
+    color: @colorPrimaryInverseDim;
+    -webkit-border-radius: @borderRadius @borderRadius 0 0;
+    -moz-border-radius: @borderRadius @borderRadius 0 0;
+    border-radius: @borderRadius @borderRadius 0 0;
+}
+.panel.panel-pure > .panel-heading {color: @colorFore}
+.panel-block.panel-borderless .panel-heading {color: @colorFore}
+
+/* Footer */
+#footer, #powerby {-moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+
+/* Go2top */
+#go2top {-moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+
+/* Avatar */
+.avatar, .avatar-empty {-moz-border-radius: @avatarBorderRadius; -webkit-border-radius: @avatarBorderRadius; border-radius: @avatarBorderRadius}
+
+/* Article */
+.article {background-color: @colorBackgroud; -moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+.article-files > li:hover .file-actions > a, .article-files > li .file-actions > a:hover {background-color: @colorPrimary}
+/* Thread */
+.thread .panel-heading {backgroundImage: none !important}
+
+/* Blog */
+/* style of blogNav */
+#blogNav{background: @colorSecondary; -moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+#blogNav .nav > li > a {font-weight: bold; color: @colorPrimaryInverseDim}
+#blogNav .navbar-nav > li:first-child > a {-moz-border-radius: @borderRadius 0 0 @borderRadius; -webkit-border-radius: @borderRadius 0 0 @borderRadius; border-radius: @borderRadius 0 0 @borderRadius}
+#blogNav .navbar-nav > li:last-child > a {-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#blogNav .navbar-nav.navbar-right > li:first-child > a {-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#blogNav .navbar-nav.navbar-right > li:last-child > a {-moz-border-radius: 0 @borderRadius @borderRadius 0; -webkit-border-radius: 0 @borderRadius @borderRadius 0; border-radius: 0 @borderRadius @borderRadius 0}
+#blogNav .nav > li > a:hover {background: @colorPrimary; color: @colorPrimaryInverse}
+#blogNav .nav > li.active > a, #blogNav .nav > li.active > a:hover, #blogNav .nav > li.active > a:focus {background: @colorPrimary; @colorPrimaryInverse}
+
+/* responsive */
+@media (max-width: 767px)
+{
+    #blogNav .nav {margin: 0}
+    #blogNav .navbar-nav > li{display: block; float: left; width: 33.333333333%}
+    #blogNav .navbar-nav > li > a, #blogNav .navbar-nav > li:first-child > a, #blogNav .navbar-nav > li:last-child > a, #blogNav .navbar-nav.navbar-right > li:first-child > a, #blogNav .navbar-nav.navbar-right > li:last-child > a{text-align: center; padding: 5px; margin: 5px;-moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+    #headTitle {position: static; margin-top: @borderRadius}
+    .card {margin-bottom: 10}
+    #blogNav .navbar-nav > li {width: 20%}
+}
+@media (max-width: 480){#blogNav .nav > li{width: 33.333333333333%}}
+@media (max-width: 480) {#blogNav .nav > li{width: 50%}}
+
+/* style of footer */
+#footNav .icon-rss-sign{color: @colorPrimary}
+#footNav .icon-rss-sign:hover{text-decoration: none; color: @colorSecondary}
+
+/* articles */
+#articles .card{background: @colorBackgroud; padding: 5px 5px 0;border: 1px solid @colorBorder;box-shadow: none; -moz-border-radius: @borderRadius; -webkit-border-radius: @borderRadius; border-radius: @borderRadius}
+#articles .card-heading a{font-weight: bold; color: @colorPrimary}
+#articles .card .media{max-width: 200; max-height: 100}
+#articles .card .media img{max-height: 100%}
+
+/* pager */
+.page-blog .pager{margin-bottom: 20;display: block}
+.page-blog .pager .page{padding: 0}

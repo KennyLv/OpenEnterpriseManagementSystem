@@ -1,0 +1,9 @@
+.cards-products .media-wrapper { height: 200px; line-height: 200px; max-height: 200px; }
+.cards-products .media-wrapper:hover {text-decoration: none}
+.cards-products .media-placeholder { height: 200px; line-height: normal; }
+.cards-products .card-heading {padding-bottom: 5px;}
+.cards-products .card-content { padding-bottom: 0; }
+.cards-products>div { padding-top: 15px; border-bottom: 1px dotted #e5e5e5; }
+.cards-products .card { margin-bottom: 15px; }
+.list-condensed .cards { padding-top: 0; margin: 0; }
+.cards-products .card-info {position: absolute; right: 10px; top: 10px;}

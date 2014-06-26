@@ -1,0 +1,21 @@
+.product-image {background-color: #F1F1F1; text-align: center; max-height: 320px; overflow: hidden;}
+.product-image.media-wrapper {height: 300px; line-height: 300px; border: 1px solid #ddd;}
+.product-image.media-wrapper img {transition: all .2s cubic-bezier(0.175,0.885,0.32,1);}
+.product-image > img {width: 100%;cursor:pointer;}
+.product-image-menu {margin: 5px -5px 0 0;}
+.product-image-menu [col*='col-']{background-color: #e5e5e5}
+.product-image-menu > div {padding: 0;}
+.product-image-menu .product-image {height: 60px; border: 1px solid #ddd; line-height: 60px; overflow: hidden; margin:0 5px 5px 0; transition: all .2s cubic-bezier(0.175,0.885,0.32,1);}
+.product-image-menu .product-image:hover {box-shadow: 0 0 4px rgba(0,0,0,0.25); opacity: 0.9; border-color: #c5c5c5;}
+.product-property .meta-name {width: 100px; padding-right: 15px;}
+.btn-buy .btn {min-width: 120px;}
+.product-property, .product-image-menu {margin-bottom: 20px;}
+.product-property h1{font-size: 22px;}
+.product-property h1,.btn-buy {padding-left: 15px; padding-right: 15px;}
+@media (min-width: 992px){.product-property h1,.btn-buy {  padding-left: 0;   padding-right: 0;} .product-property.product-lack-img h1,.product-lack-img .btn-buy {padding-left: 15px;   padding-right: 15px;}}
+.article-content {padding:0;}
+.product-property.product-lack-img h1{margin-top: 20px; padding-left: 0; padding-right: 0;}
+
+.panel-body {position: relative;}
+.panel-body .back2top {position: absolute; bottom: 0; right: -30px; display: block; width: 30px; padding: 5px 8px; border:1px solid #ddd; border-radius: 0 4px 4px 0}
+.panel-body .back2top:hover {text-decoration: none; background-color: #E5E5E5}

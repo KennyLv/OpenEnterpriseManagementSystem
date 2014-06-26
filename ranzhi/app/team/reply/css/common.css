@@ -1,0 +1,4 @@
+#fileform input{width: 340px; margin-bottom:2px; margin-top:5px}
+#fileform label{display: inline;}
+.boards li.active{font-weight: bold;}
+.breadcrumb{padding-left: 0;}

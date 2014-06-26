@@ -1,0 +1,9 @@
+.box h4.title
+{
+  font-size: 24px;
+  background-color: #fff;
+  margin: 10px 15px;
+  padding: 10px;
+  height: inherit;
+  text-align: center;
+}

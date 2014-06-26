@@ -1,0 +1,15 @@
+#login .panel{width: 80%; margin: 5% auto;max-width: 450px;}
+#login .panel-body{min-height: 230px;}
+#login .panel-heading{background-color: transparent;}
+
+.btn-oauth{text-align: left;padding-left: 130px;border-color:#0e708e; background-color: #14a0cb;color: #fff;font-size: 24px;line-height: 40px;position: relative;text-shadow: 0 1px 0 rgba(0,0,0,0.5)}
+.btn-oauth .icon{font-size: 40px;position: absolute;left: 75px;}
+.btn-sina { background-color: #ed1f1f; border-color: #a51616}
+.btn-sina:hover {background-color: #a51616;color: #fff;border-color: #8e0f0f}
+.btn-qq:hover {background-color: #0e708e;color: #fff;border-color: #0d627c}
+
+#adminLogin { max-width: 390px; margin: 5% auto; padding: 20px; background-color: #FFF; border: 1px solid #DDD; -moz-box-shadow: 0px 1px 15px rgba(0,0,0,0.15); -webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15); box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15);border-radius: 6px;}
+#responser { line-height: 30px; font-size: 12px }
+#adminLogin .form-control,#logo { margin-bottom: 10px; }
+
+@media (max-width: 700px){ #adminLogin{border: none;margin: 0 auto;box-shadow: none;padding: 20px 15px;background-color: #f6f5f5}}

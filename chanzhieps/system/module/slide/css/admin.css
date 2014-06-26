@@ -1,0 +1,7 @@
+.carousel {border-radius: 0}
+.carousel-inner .item, .carousel-inner .item > img {max-height: 150px; border-radius: 4px 4px 0 0; box-shadow: inset 0 -10px 10px rgba(0,0,0,0.25)}
+.carousel-inner .item.show, .carousel-inner .item.show > img {max-height: inherit; border-radius: 4px; box-shadow: none}
+.carousel-inner .item .actions {position: absolute; top: 0; left: 0; right: 0; padding: 10px; background-color: #eee; background-color: rgba(255,255,255,0.1); z-index: 12; transition: all 0.3s; opacity: 0.5;}
+.carousel-inner .item:hover .actions {background-color: rgba(255,255,255,0.6); opacity: 1}
+.carousel-inner .item .btn-pure {padding: 0; height: 32px; min-width: 32px; font-size: 14px; font-weight: normal; display: inline-block; line-height: 32px}
+a.btn-sm{margin-bottom:5px;padding:5px;}

@@ -1,0 +1,4 @@
+.content p{margin: 0;line-height: 1.5em}
+.content > h1{margin-bottom: 20px;}
+.keywords,.summary{color: #666}
+.sina-widget{display: inline-block;margin: -2px -15px 0 0;padding: 0;line-height: 1;vertical-align: top;}

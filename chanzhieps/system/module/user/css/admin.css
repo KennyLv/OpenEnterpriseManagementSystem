@@ -1,0 +1,4 @@
+.panel{margin: 0 15px 0 0;}
+.panel-actions > form {max-width: 400px;}
+.panel-actions > form .input-group{margin-top: 3px;}
+.panel-actions > form .input-group .btn{margin: 0;}

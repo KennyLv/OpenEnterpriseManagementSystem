@@ -1,0 +1,5 @@
+.article-content{padding: 0}
+#contact{margin: 10px 0;}
+#contact dl{display: table-row;}
+#contact dd,#contact dt{display: table-cell;padding: 2px 5px;}
+#contact dt{text-align: right;}

@@ -1,0 +1,41 @@
+/* global style */
+body{padding-bottom: 20px; background-color: #fff; }
+h1{font-size: 22px;}
+h3{font-size: 18px;}
+h3{font-size: 16px;}
+h4{font-size: 14px; font-weight:600;}
+h5{font-size: 14px;}
+
+/* style of blogNav */
+#blogNav{background: #2C3E50; }
+#blogNav .nav > li > a {font-weight: bold; color: #f1f1f1}
+#blogNav .nav > li > a:hover{background: #1ABC9C; color: #fff}
+#blogNav .nav >li.active>a,#blogNav .nav >li.active>a:hover,#blogNav .nav >li.active>a:focus{background: #16A085;color: #fff}
+
+@media (max-width: 767px)
+{
+  #blogNav {border-radius: 6px;}
+  #blogNav .nav{margin: 0}
+  #blogNav .nav + .nav{border-top: 1px solid #597b9c;}
+  #blogNav .nav > li{display: block; float: left; width: 33.333333333%}
+  #blogNav .nav > li > a{text-align: center; padding: 5px; margin: 5px; border-radius: 6px}
+  #headTitle {position: static; margin-top: 15px;}
+  .card {margin-bottom: 10px;}
+  #blogNav .nav > li {width: 20%}
+}
+@media (max-width: 480px){#blogNav .nav > li{width: 33.333333333333%;}}
+@media (max-width: 480px) {#blogNav .nav > li{width: 50%;}}
+
+/* style of footer */
+#footNav .icon-rss-sign{color: #16A085}
+#footNav .icon-rss-sign:hover{text-decoration: none; color: #1ABC9C}
+
+/* articles */
+#articles .card{background-color: #EDEFF1;padding: 5px 5px 0;border: none;box-shadow: none;border-radius: 6px;}
+#articles .card-heading a{font-weight: bold; color: #16A085}
+#articles .card .media{max-width: 200px; max-height: 100px}
+#articles .card .media img{max-height: 100%}
+
+/* pager */
+.pager{margin-bottom: 20px;display: block;}
+.pager .page{padding: 0}

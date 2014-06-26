@@ -1,0 +1,211 @@
+/*
+   Chanzhi custom theme
+
+   This style built with the default optiosn.
+   Options:
+   ( '*' mark the key option)
+
+   * colorBackgroud:           #FFFFFF;
+   * colorFore:                #333;
+   * colorBorder:              #e5e5e5;
+   * backgroundImage:          none;
+   * fontSize:                 14px;
+   * colorPrimary:             #F25D03;
+     colorPrimaryRgb:          242, 93, 3;
+     colorPrimaryInverseDim:   #e5e5e5;
+     colorPrimaryInverse:      #ffffff;
+   * colorSecondary:           #b04c10;
+     colorSecondaryRgb:        176, 76, 16;
+     colorSecondaryDark:       #98410d;
+     colorSecondaryLight:      #af4b0f;
+     colorPale:                #ffffff;
+   * borderRadius:             4px;
+   * avatarBorderRadius:       20px;
+   * borderWidth:              1px;
+   * borderStyle:              solid;
+*/
+
+/* ZUI theme */
+a {color: #F25D03}
+a:hover, a:focus {color: #b04c10}
+
+.btn-primary {color: #e5e5e5; background-color: #F25D03; border-color: #b04c10}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {color: #ffffff; background-color: #b04c10; border-color: #b04c10}
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {background-image: none}
+.btn-link {color: #F25D03}
+.btn-link:hover, .btn-link:focus {color: #b04c10}
+
+.label-primary {background-color: #F25D03}
+.label-primary[href]:hover, .label-primary[href]:focus {background-color: #b04c10}
+.label-primary[href]:hover, .label-primary[href]:focus {background-color: #b04c10}
+
+.text-primary {color: #F25D03}
+.text-primary:hover, .text-link:hover, .text-link:active{color: #b04c10}
+
+.form-control:focus {border-color: #b04c10; -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6)}
+
+.ke-container.focus, .ke-input-text:focus {border-color: #b04c10 !important; -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6) !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6) !important; box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242, 93, 3, 0.6) !important}
+.ke-menu-item-on, .ke-colorpicker-cell-on {background-color: #F25D03 !important}
+
+a.list-group-item:hover, a.list-group-item:focus {background-color: #b04c10; color: #e5e5e5}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {background-color: #F25D03; color: #ffffff}
+
+.nav-primary > li.active > a,
+.nav-primary > li.active > a:hover,
+.nav-primary > li.active > a:focus {background-color: #F25D03; border-color: #b04c10}
+
+.pager > .active > a, .pager > .active > span, .pager > .active > a:hover, .pager > .active > span:hover, .pager > .active > a:focus, .pager > .active > span:focus {background-color: #F25D03}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {background-color: #ffffff}
+.table tr > td.active, .table tr > th.active, .table tr.active > td, .table tr.active > th {background-color: #ffe4e5}
+table.tablesorter thead tr .headerSortUp:after,table.tablesorter thead tr .headerSortDown:after {color: #F25D03 !important}
+
+.chosen-container-single .chosen-search:focus, .chosen-container-active .chosen-single, .chosen-container-active .chosen-choices {border-color: #F25D03 !important}
+.chosen-container .chosen-results li.highlighted {background-color: #b04c10 !important}
+.chosen-container-active.chosen-with-drop .chosen-single {border-color: #cbcbcb !important; border-color: rgba(0, 0, 0, 0.15) !important}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {background-color: #F25D03}
+
+.messager-primary {background-color: #F25D03}
+
+a.card:hover, .card:hover a {color: #F25D03}
+
+.comment:hover > .content > .actions > a {color: #F25D03}
+
+.btn, .form-control {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.ke-container {-moz-border-radius: 4px !important; -webkit-border-radius: 4px !important; border-radius: 4px !important}
+
+/* Background */
+body {color:#333; background-color: #FFFFFF; background-image: none; font-size: 14px; background-attachment: fixed}
+
+/* Navbar */
+#navbar
+{
+    border-color: #98410d;
+    background: #b04c10;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#navbar .nav > li:first-child > a
+{
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+#navbar .nav > li:last-child > a
+{
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+#navbar .nav > li > a
+{
+    color: #e5e5e5;
+    background: #b04c10;
+    border-left: 1px solid #98410d;
+    border-right: 1px solid #af4b0f;
+}
+#navbar .nav > li > a:hover,
+#navbar .nav > li.active > a,
+#navbar .nav > li.active > a:hover
+{
+    color: #ffffff;
+    background: #F25D03;
+}
+
+#navbar .caret {border-top-color: #e5e5e5; border-bottom-color: #e5e5e5}
+#navbar .dropdown-menu, #navbar .dropdown-menu > li:last-child > a {-webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px}
+#navbar .dropdown-menu .dropdown-menu {-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px}
+#navbar .dropdown-menu .dropdown-menu > li:first-child > a {-webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0}
+#navbar .dropdown-submenu:hover > a:after {border-left-color: #e5e5e5}
+#navbar .dropdown-menu > li > a:hover, #navbar .dropdown-menu > li > a:focus, #navbar .dropdown-submenu:hover > a, #navbar .dropdown-submenu:focus > a {background: #af4b0f; color: #ffffff}
+
+@media (max-width: 767px)
+{ 
+    #navbar .nav > li:last-child > a, #navbar .nav > li:first-child > a {-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0}
+    #navbar .navbar-collapse {border-color: transparent}
+    #navbar .navbar-toggle:hover, #navbar .navbar-toggle:focus {background-color: #F25D03}
+}
+
+/* List */
+.list {background-color: #FFFFFF; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.list > header
+{ 
+    background: #b04c10;
+    color: #e5e5e5;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Carousel */
+.carousel {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.right.carousel-control {-webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0; border-radius: 0 4px 4px 0}
+.left.carousel-control {-webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px; border-radius: 4px 0 0 4px}
+
+/* Panel */
+.panel {overflow: hidden; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.panel > .panel-heading
+{
+    background: #b04c10;
+    color: #e5e5e5;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+.panel.panel-pure > .panel-heading {color: #333}
+.panel-block.panel-borderless .panel-heading {color: #333}
+
+/* Footer */
+#footer, #powerby {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+/* Go2top */
+#go2top {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+/* Avatar */
+.avatar, .avatar-empty {-moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px}
+
+/* Article */
+.article {background-color: #FFFFFF; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.article-files > li:hover .file-actions > a, .article-files > li .file-actions > a:hover {background-color: #F25D03}
+/* Thread */
+.thread .panel-heading {backgroundImage: none !important}
+
+/* Blog */
+/* style of blogNav */
+#blogNav{background: #b04c10; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+#blogNav .nav > li > a {font-weight: bold; color: #e5e5e5}
+#blogNav .navbar-nav > li:first-child > a {-moz-border-radius: 4px 0 0 4px; -webkit-border-radius: 4px 0 0 4px; border-radius: 4px 0 0 4px}
+#blogNav .navbar-nav > li:last-child > a {-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#blogNav .navbar-nav.navbar-right > li:first-child > a {-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#blogNav .navbar-nav.navbar-right > li:last-child > a {-moz-border-radius: 0 4px 4px 0; -webkit-border-radius: 0 4px 4px 0; border-radius: 0 4px 4px 0}
+#blogNav .nav > li > a:hover {background: #F25D03; color: #ffffff}
+#blogNav .nav > li.active > a, #blogNav .nav > li.active > a:hover, #blogNav .nav > li.active > a:focus {background: #F25D03; #ffffff}
+
+/* responsive */
+@media (max-width: 767px)
+{
+    #blogNav .nav {margin: 0}
+    #blogNav .navbar-nav > li{display: block; float: left; width: 33.333333333%}
+    #blogNav .navbar-nav > li > a, #blogNav .navbar-nav > li:first-child > a, #blogNav .navbar-nav > li:last-child > a, #blogNav .navbar-nav.navbar-right > li:first-child > a, #blogNav .navbar-nav.navbar-right > li:last-child > a{text-align: center; padding: 5px; margin: 5px;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+    #headTitle {position: static; margin-top: 4px}
+    .card {margin-bottom: 10}
+    #blogNav .navbar-nav > li {width: 20%}
+}
+@media (max-width: 480){#blogNav .nav > li{width: 33.333333333333%}}
+@media (max-width: 480) {#blogNav .nav > li{width: 50%}}
+
+/* style of footer */
+#footNav .icon-rss-sign{color: #F25D03}
+#footNav .icon-rss-sign:hover{text-decoration: none; color: #b04c10}
+
+/* articles */
+#articles .card{background: #FFFFFF; padding: 5px 5px 0;border: 1px solid #e5e5e5;box-shadow: none; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+#articles .card-heading a{font-weight: bold; color: #F25D03}
+#articles .card .media{max-width: 200; max-height: 100}
+#articles .card .media img{max-height: 100%}
+
+/* pager */
+.page-blog .pager{margin-bottom: 20;display: block}
+.page-blog .pager .page{padding: 0}

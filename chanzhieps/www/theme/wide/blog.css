@@ -1,0 +1,53 @@
+/* Blog */
+/* Containers */
+#blogNav {margin: 0 auto;}
+@media (min-width: 768px) {#blogNav {max-width: 750px;}}
+@media (min-width: 992px) {#blogNav {max-width: 970px;}}
+@media (min-width: 1200px) {#blogNav {max-width: 1170px;}}
+
+/* style of blogNav */
+#blogNav {position: relative; background: none; border: none; min-height: 0; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#blogNav .wrapper {position: absolute; right: 0; top: -72px;}
+#blogNav .nav > li > a {background: none; border-width: 0; font-weight: normal; padding: 26px 10px; margin-left: 10px;}
+#blogNav .nav > li > a:hover,
+#blogNav .nav > li > a:focus,
+#blogNav .nav > li.active > a,
+#blogNav .nav > li.active > a:hover {color: #e91b23; border-bottom: 4px solid #e91b23; padding-bottom: 22px;}
+
+/* style of footer */
+#footNav .icon-rss-sign{color: #808080; transition: all 0.3s;}
+#footNav .icon-rss-sign:hover{text-decoration: none; color: #e91b23}
+
+/* articles */
+#articles .card{background: #FFFFFF; padding: 5px 5px 0;border: 1px solid #e5e5e5;box-shadow: none; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0}
+#articles .card-heading a{font-weight: bold; color: #e91b23}
+#articles .card .media{max-width: 200px; max-height: 100px}
+#articles .card .media img{max-height: 100%}
+
+/* pager */
+.page-blog .pager{margin-bottom: 20;display: block}
+.page-blog .pager .page{padding: 0}
+
+/* responsive for mobile devices */
+@media (max-width: 767px)
+{
+    #blogNav {border-bottom: 1px solid #e5e5e5;}
+    #blogNav .wrapper {position: relative; top: 0; left: 0}
+    #blogNav .navbar-nav {margin: 0}
+    #blogNav .navbar-nav.navbar-right {position: absolute; top: -73px; right: 0}
+    #blogNav .nav > li {float: left;}
+    #blogNav .nav > li > a {padding: 15px; margin: 0;}
+    #blogNav .nav > li > a:hover,
+    #blogNav .nav > li > a:focus,
+    #blogNav .nav > li.active > a,
+    #blogNav .nav > li.active > a:hover {padding-bottom: 15px; border: none;}
+    #blogNav .nav > li > a:hover {background: #f1f1f1}
+    #blogNav .nav > li.active > a,
+    #blogNav .nav > li.active > a:hover {background: #e91b23; color: #fff}
+
+    #blogNav .navbar-nav.navbar-right > li > a {padding: 26px 15px;}
+    #blogNav .navbar-nav.navbar-right > li > a:hover,
+    #blogNav .navbar-nav.navbar-right > li > a:focus,
+    #blogNav .navbar-nav.navbar-right > li.active > a,
+    #blogNav .navbar-nav.navbar-right > li.active > a:hover {color: #e91b23; border-bottom: 4px solid #e91b23; padding-bottom: 22px; background: #fff}
+}
